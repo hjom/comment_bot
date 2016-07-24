@@ -23,7 +23,7 @@ import matplotlib.pyplot as plt
 
 #path = get_file('out.txt', 'C:\Users\Dule\Desktop\textic')
 text = open('bots85.txt', encoding="utf8").read().lower()
-text = text[0:100000]
+text = text[0:200000]
 
 print('corpus length:', len(text))
 with open("Output.txt", "a") as text_file:
